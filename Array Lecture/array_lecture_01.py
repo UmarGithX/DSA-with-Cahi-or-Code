@@ -51,4 +51,12 @@ print(x)
 # for i in x:
 #     print(i)
 
-to add a 
+# to add add the first of array any element
+x[6] = 21 # so at 6th index the value will be come 16 and the older value will be deleted
+print(x)
+
+
+#==================================================================================#
+# now to copy an existing array
+
+carray = array(x,typecodes , (y for y in range x))
