@@ -59,4 +59,24 @@ print(x)
 #==================================================================================#
 # now to copy an existing array
 
-carray = array(x,typecodes , (y for y in range x))
+carray = array(x.typecode,(ca for ca in x))
+for i in range(0,len(x)):
+    print(carray[i])
+
+# to delete a element in array
+
+arr= array('i',[21,22,23,24,25,26,27,28,29,30])
+arr.pop()
+print(arr , end=" ")
+
+#======================================================================================#
+#slicing A Array
+# arr2 = arr[Stating index : Ending of the Index) that you want to make a seperate Array of it.
+
+arr2 = arr[0:5]
+for a in range(0,len(arr2)):
+   print(arr2[a])
+
+
+
+print(arr2)
