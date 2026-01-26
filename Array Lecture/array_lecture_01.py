@@ -80,23 +80,36 @@ for a in range(0,len(arr2)):
 print(arr2)
 
 # we can also revurse the array with the help of slicing
-Array2 = array('i',[1,2,3,4,5,6,7,8,9,10])
+Umar = array('i',[1,2,3,4,5,6,7,8,9,10])
 
 Array3= Array2[::-1]
 # for i in Array2:
     # print(i)
 
-for j in range(0,len(Array3)):
-    print(Array3[j],end=" ")
+for i in range(0,len(Array3)):
+    print(Array3[i],end=" ")
 
 #=========================================================================================#
 # we can insert the array Size at the runtime from the user
 
-ar = array('i',[])
-n= int(input("\nEnter a number : "))
+ar = array('i',[]) # we create an emty array 
+n = int(input("\nEnter a number : ")) # the we add another variable which is used for user to input the array size;
 
-for k in range(0,n):
-    ar.append(int(input("Enter next input:")))
+for i in range(0,n): #then we create the loop which 
+    ar.append(int(input("Enter input:")))
+
+
 print("The Output is :")
-for q in ar:
-    print(q)
+for i in ar:
+    print(i)
+
+
+#==========================================================================================#
+# we can search in arry #
+Hassan = Umar # this i copy an existing array for time saving 
+
+i = Hassan.index(5) # with the help of the .index i can search the index of the element
+print("the index of The entered Number is: ",i) 
+
+
+#the end#
