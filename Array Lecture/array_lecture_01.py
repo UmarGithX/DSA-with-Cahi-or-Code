@@ -61,7 +61,7 @@ print(x)
 
 carray = array(x.typecode,(ca for ca in x))
 for i in range(0,len(x)):
-    print(carray[i])
+    print(carray[i],"hi")
 
 # to delete a element in array
 
@@ -77,6 +77,26 @@ arr2 = arr[0:5]
 for a in range(0,len(arr2)):
    print(arr2[a])
 
-
-
 print(arr2)
+
+# we can also revurse the array with the help of slicing
+Array2 = array('i',[1,2,3,4,5,6,7,8,9,10])
+
+Array3= Array2[::-1]
+# for i in Array2:
+    # print(i)
+
+for j in range(0,len(Array3)):
+    print(Array3[j],end=" ")
+
+#=========================================================================================#
+# we can insert the array Size at the runtime from the user
+
+ar = array('i',[])
+n= int(input("\nEnter a number : "))
+
+for k in range(0,n):
+    ar.append(int(input("Enter next input:")))
+print("The Output is :")
+for q in ar:
+    print(q)
