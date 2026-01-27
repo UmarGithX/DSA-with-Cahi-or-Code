@@ -18,5 +18,18 @@ for i in range(0,n):
 for i in arr:
     print(i)
 
-print("Max Is ",max(arr))
-print("Min Is ",min(arr))
+larger = arr[i]
+smaller= arr[i]
+for i in range(1,n):
+    if arr[i]<larger:
+        larger = arr[i]
+    if arr[i]> smaller:
+        smaller = arr[i]
+
+
+print("Larger Element is :" , larger )
+print("samller Element is :" , smaller )
+
+# arr = [4, 7, 2, 9, 1]
+# print("Max Is :",max(arr))
+# print("Min Is :",min(arr))

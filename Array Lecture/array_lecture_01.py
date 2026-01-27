@@ -5,8 +5,7 @@ from array import * #this way we dont need to write any name for using the dubul
 val = array('i',[1,2,3,4,5,6,7,8,9,10])
 
 # print(val)
- 
-#  using for loop to output the values
+# using for loop to print the values
 print("1st for loop")
 for i in range(1,len(val)):
     print(i, end=" ") #the last end=" " used for printing the number in one line like 1,2,3,4,5,6;
@@ -82,7 +81,7 @@ print(arr2)
 # we can also revurse the array with the help of slicing
 Umar = array('i',[1,2,3,4,5,6,7,8,9,10])
 
-Array3= Array2[::-1]
+Array3= arr2[::-1]
 # for i in Array2:
     # print(i)
 
