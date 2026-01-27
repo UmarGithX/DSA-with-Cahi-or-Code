@@ -1,0 +1,22 @@
+# 🟡 Q2: Find Largest & Smallest Element (NO max / min)
+# ❓ Problem Statement
+# Write a Python program to:
+# Take an array of n integers from the user
+# Find:
+# the largest element
+# the smallest element
+# Do NOT use:
+# max()
+# min()
+
+from array import *
+
+arr = array('i',[])
+n = int(input("Enter Size of array : "))
+for i in range(0,n):
+    arr.append(int(input("Enter next Number:")))
+for i in arr:
+    print(i)
+
+print("Max Is ",max(arr))
+print("Min Is ",min(arr))
